@@ -14,7 +14,7 @@ body {
 }
 p {
     color: v.$negro;
-    font-size: 2rem;
+    font-size: 1.6rem;
 }
 .contenedor {
     width: 95%;
@@ -37,7 +37,6 @@ h1, h2, h3 {
     margin: calc(v.$separacion / 2) 0;
     font-weight: 300;
     text-align: center;
-    
 }
 
 h1 {
@@ -47,8 +46,8 @@ h2 {
     font-size: 3.4rem;
 }
 h3 {
-    font-size: 3rem;
+    font-size: 2.6rem;
 }
 h4 {
-    font-size: 2.6rem;
+    font-size: 2.4rem;
 }

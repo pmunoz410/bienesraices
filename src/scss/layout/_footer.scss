@@ -2,10 +2,12 @@
 
 .footer {
     background-color: v.$grisOscuro;
-    padding: v.$separacion / 2 0;
+    // padding: v.$separacion / 2 0;
+    padding: calc(v.$separacion / 2) 0;
     
     .contenedor-footer {
-        padding: v.$separacion / 2;
+        // padding: v.$separacion / 2;
+        padding: calc(v.$separacion / 2);
     }
 
     .copyright {
