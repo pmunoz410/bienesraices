@@ -2,6 +2,10 @@
 @use 'mixins' as m;
 
 .boton-naranja {
+    @include m.boton(v.$naranja, inline-block);
+}
+
+.boton-naranja-block {
     @include m.boton(v.$naranja, block);
 }
 
