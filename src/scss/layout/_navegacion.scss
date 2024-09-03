@@ -14,9 +14,12 @@
 
 .navegacion {
 
+    padding-top: 1rem;
+
     @include m.tablet {
         display: flex;
         align-items: center;
+        padding-top: 0rem;
     }
 
     a {
@@ -24,6 +27,10 @@
         font-size: 2rem;
         display: block;
         text-align: center;
+
+        &:hover {
+            color: v.$verde;
+        }
 
         @include m.tablet {
             margin-right: 2rem;
