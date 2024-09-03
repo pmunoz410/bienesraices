@@ -16,4 +16,4 @@ Diseño y elaboración como práctica y estudio de temas:
 
 Desde el siguiente enlace podrán previsualizar el proyecto.
 
-[https://bienesraices-pm.netlify.app](https://bienesraices-pm.netlify.app/)
+<a href="https://bienesraices-pm.netlify.app" target="_blank">bienesraices-pm.netlify.app</a>
