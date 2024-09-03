@@ -4,6 +4,7 @@
 .barra {
     display: flex;
     flex-direction: column;
+    align-items: center;
     padding-top: 2rem;
 
     @include m.tablet {
@@ -12,14 +13,30 @@
     }
 }
 
-.navegacion {
+.mobile-menu {
+    padding-top: 1rem;
 
+    @include m.tablet {
+        display: none;
+    }
+
+    img {
+        width: 4rem;
+    }
+}
+
+.navegacion {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0.3s ease-in-out, opacity 0.5s linear;
     padding-top: 1rem;
 
     @include m.tablet {
         display: flex;
         align-items: center;
         padding-top: 0rem;
+        opacity: 1;
+        visibility: visible;
     }
 
     a {
@@ -40,4 +57,9 @@
             }
         }
     }
+}
+
+.mostrar {
+    visibility: visible;
+    opacity: 1;
 }
