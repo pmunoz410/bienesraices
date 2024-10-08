@@ -11,6 +11,6 @@
         <p class="copyright">&copy; <?php echo date('Y'); ?> Bienes y Raices. Todos los derechos reservados.</p>
     </footer>
 
-    <script src="build/js/bundle.min.js"></script>
+    <script src="/bienesraices/build/js/bundle.min.js"></script>
     </body>
 </html>
